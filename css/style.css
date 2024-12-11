@@ -1,0 +1,133 @@
+body {
+    background-color: #24353f;
+    font-family: "Roboto", sans-serif;
+    height: 300vh;
+}
+
+.container {
+    background-color: #24353f;
+}
+
+input {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.navbar {
+    background-color: #24353f !important;
+}
+
+nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.main {
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: #17a2b8;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #b6b6b6 !important;
+    font-weight: 400;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+#loginbtn {
+    border: 1px solid #17a2b8 !important;
+    color: #17a2b8 !important;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#signupBtn {
+    border: 1px solid #17a2b8 !important;
+    color: #17a2b8 !important;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#loginbtn:hover {
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+
+#signupBtn:hover {
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+
+#logoutBtn:hover {
+    color: white !important;
+}
+
+a {
+    color: #b6b6b6 !important;
+    transition: text-decoration 4s !important;
+}
+
+#GG:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+#DD:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+span {
+    cursor: pointer;
+    color: #b6b6b6 !important;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0 !important;
+}
+
+#alertFailed {
+    color: red !important;
+    font-weight: 300;
+}
+
+#alertSuccess {
+    color: green !important;
+    font-weight: 300;
+}
+
+#wrongName {
+    color: red !important;
+    font-weight: 300;
+}
+
+#wrongEmail {
+    color: red !important;
+    font-weight: 300;
+}
+
+#wrongpass {
+    color: red !important;
+    font-weight: 300;
+}
+
+#alertSuccessSignup {
+    color: green !important;
+    font-weight: 300;
+}
+
+#alertFailedSignup {
+    color: red !important;
+    font-weight: 300;
+}

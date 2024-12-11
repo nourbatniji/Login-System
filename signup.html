@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container d-flex align-items-start justify-content-center w-75">
+        <div class="main p-5 text-center w-75 my-5 p-5">
+            <h1 class="m-auto mb-3">Smart Login System</h1>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control rounded-1" id="nameInput" aria-describedby="emailHelp"
+                        placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control rounded-1" id="signupEmailInput"
+                        aria-describedby="emailHelp" placeholder="Enter your email">
+                </div>
+                <div class="mb-4">
+                    <input type="password" class="form-control rounded-1" id="signupPassInput"
+                        placeholder="Enter your password">
+                </div>
+
+                <p id="alertSuccessSignup" class="d-none">Sucess</p>
+                <p id="alertFailedSignup" class="d-none">email already exists</p>
+                <p id="wrongName" class="d-none">please enter a valid name</p>
+                <p id="wrongEmail" class="d-none">please enter a valid email</p>
+                <p id="wrongpass" class="d-none">password should contain at least 8-characters</p>
+
+                <a class="text-decoration-none" id="link"><button type="button" id="signupBtn"
+                        class="btn w-100 mt-2 rounded-1">Sign Up</button></a>
+            </form>
+            <p class="text-white pt-3 pb-1"> You have an account? <a id="GG" class="text-decoration-none text-white"
+                    href="index.html">Signin</a></p>
+
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
